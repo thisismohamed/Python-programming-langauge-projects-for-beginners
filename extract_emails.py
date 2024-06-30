@@ -15,6 +15,6 @@ def extract_emails(url):
 if __name__ == "__main__":
     url = input("Enter URL to scan for emails: ")
     results = extract_emails(url)
-    print(f"Emails found on {url}")
+    print("Emails found on %s" % url)
     for email in results:
         print(email)
