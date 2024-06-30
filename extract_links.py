@@ -19,5 +19,6 @@ def get_links(url):
 if __name__ == "__main__":
     url = input("Enter URL to scan for links: ")
     links = get_links(url)
+    print("Links found on %s" % url)
     for link in links:
         print(link)
