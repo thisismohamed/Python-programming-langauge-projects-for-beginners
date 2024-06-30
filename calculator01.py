@@ -29,7 +29,7 @@ def main():
         print("Invalid an operation!")
         return main()
 
-    print("Result: %f" % (result))
+    print("Result: %s" % result)
     #main()
 
 main()
