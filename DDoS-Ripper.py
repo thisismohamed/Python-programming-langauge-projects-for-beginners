@@ -104,7 +104,7 @@ if __name__ == "__main__":
     useragents()
     bots()
     bots01()
-    # PRINT BANNER HERE
+    # Your banner code goes here
     time.sleep(5)
     try:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
